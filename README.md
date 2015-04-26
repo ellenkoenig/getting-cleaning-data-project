@@ -7,7 +7,7 @@ To run the cleaning script, just execute (source) `run-analysis.R`
 
 # How the script works
 The script executes the following steps (all steps are also marked with comments in the source code, so you can find the details there)
- 1. Read the `test` data from `test/X_test.txt` using the labels from `features.txt`and filter the relevant columns (all columns including either `mean()`or `std()` in their column name)
+ 1. Read the `test` data from `test/X_test.txt` using the labels from `features.txt`and filter the relevant columns (all columns containing either `mean()`or `std()` in their column name)
  2. Read the `train` data from `train/X_train.txt` using the labels from `features.txt`and filter the relevant columns (all columns including either `mean()`or `std()` in their column name)
  3. Add the activity labels for the `test` and `train` data each from `test/y_test.txt` and `train/y_train.txt`
  4. Add the subject information for the `test` and `train` data each from `test/subject_test.txt` `train/subject_train.txt`
