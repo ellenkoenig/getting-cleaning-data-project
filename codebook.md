@@ -1,4 +1,5 @@
 This  script summarizes data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The data was gathered using smartphone sensors and measures different human activities such as standing and walking. 
 For more information on how the data was gathered, please see the description provided by the authors: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names
 
